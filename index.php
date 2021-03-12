@@ -1,20 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
 <?php 
-$color= "red";
+$phrase = "You should eat pizza, beer, and ice cream every day";
+$healthy = array('fruits', 'vegetables', 'fiber');
+$yummy = ["pizza", "beer", "ice cream"];
 
-echo "My car is " . $color; "<br>";
-echo "My car is " . $color; "<br>";
-// echo "My house is" . $COLOR; "<br>";
-// echo "My house is" . $CoLoR; "<br>";
+print_r(str_replace($phrase,$yummy, $healthy));
 
-?>
-</body>
-</html>
+?>(
+    {
